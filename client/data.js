@@ -1,0 +1,35 @@
+export const jarjarUser = {
+  "user": [
+    {
+      "id": "1",
+      "name": "Jarjar law"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "task": "Do homework",
+      "date": "Mar 15, 2026"
+    },
+    {
+      "id": "2",
+      "task": "shopping wiht mom",
+      "date": "Mar 14, 2026"
+    },
+    {
+      "id": "3",
+      "task": "Hangout with jena",
+      "date": "Mar 20, 2026"
+    },
+    {
+      "id": "4",
+      "task": "Meeting class",
+      "date": "Mar 22, 2026"
+    },
+    {
+      "id": "5",
+      "task": "Gym with jene",
+      "date": "Mar 20, 2026"
+    }
+  ]
+}
