@@ -15,7 +15,7 @@ const Register = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/register", {
+      const res = await fetch("http://localhost:1000/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -40,7 +40,7 @@ const Register = () => {
   };
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-green-300">
+    <div className="w-full h-screen flex items-center justify-center bg-green-100">
       <div className="flex flex-col w-150 bg-gray-100 items-center p-6 rounded-3xl shadow-xl">
         <h1 className="text-5xl font-bold mt-6 mb-10 text-gray-900">
           Register
